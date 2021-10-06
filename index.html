@@ -1,193 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/f540ecf42e.js" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="amazing personnal responsive website" />
+    <meta
+      keywords="responsive website,personnal website,website templates on github,
+      Khattala Mohammed website,Khattala Mohammed"
+    />
+    <meta nam="author" content="Khattala Mohammed" />
+    <title>Khattala Mohammed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f540ecf42e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div class="menu-btn">
-            <div class="bar1"> </div>
-            <div class="bar2"> </div>
-            <div class="bar3"> </div>
-        </div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
     </header>
     <section id="home">
-        <div>
-        <div class="welcome">
-           <div class="info">
-              <p class="hi"> Hi! <i class="hand fas fa-hand-sparkles"></i> </p> <p class="name">Khattala Mohammed, </p><p class="profession">Software engineering student.</p> 
-           </div>
-           <div class="btn"><a href="#about"> <button type="button">KNOW MORE  ▼</button> </a></div>
-        </div> 
-    </div>
+      <div class="welcome">
+        <div class="info">
+          <p class="hi">Hi! <i class="hand fas fa-hand-sparkles"></i></p>
+          <p class="name">Khattala Mohammed,</p>
+          <p class="profession">software engineering student.</p>
+        </div>
+        <div class="btn">
+          <a href="#about"> <button type="button">KNOW MORE ▼</button> </a>
+        </div>
+      </div>
     </section>
     <section id="about">
-        <div class="myHead">
-          About me
+      <div class="myHead">About me</div>
+      <div class="container">
+        <div class="myimg">
+          <img src="images/me.jpg" alt="" />
         </div>
+        <div class="paragraph">
+          <p>
+            Hello! my name is <strong>Khattala Mohammed</strong> and I am a
+            software engineering student. My passion of computer science began
+            since i have been child, my interests for the moment turn about web
+            development, mobile development and artificial intelligence. People
+            around me tell me that i am enthusiastic ,serious and motivated.
+          </p>
+          <div class="btn">
+            <a href="files/mohammedkhattala.pdf">
+              <button type="button">Download CV</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="myHead">
+        <div>My Skills</div>
+      </div>
+      <div class="container">
+        <div class="myskills programming">
+          <div class="head">Programming && DB</div>
+          <div class="bars">
+            <div class="info">
+              <span>C</span>
+              <span class="percen">70%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>C++</span>
+              <span class="percen">70%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JAVA</span>
+              <span class="percen">80%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+
+          <div class="bars">
+            <div class="info">
+              <span>MySQL</span>
+              <span class="percen">70%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+        </div>
+        <div class="myskills web">
+          <div class="head">Web Development</div>
+          <div class="bars">
+            <div class="info">
+              <span>HTML</span>
+              <span class="percen">90%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>CSS</span>
+              <span class="percen">80%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>JavaScript</span>
+              <span class="percen">70%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+          <div class="bars">
+            <div class="info">
+              <span>PHP</span>
+              <span class="percen">70%</span>
+            </div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="myHead">
+        <div>Contact me</div>
+      </div>
+      <div class="container">
+        <form
+          action="https://formspree.io/f/moqybpaa"
+          method="post"
+          id="my-form"
+          autocomplete="off"
+        >
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email.."
+            required
+          /><br />
+          <input
+            type="text"
+            name="Object"
+            id="object"
+            placeholder="Object.."
+            required
+          /><br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message...."
+          ></textarea>
+          <br />
+          <input type="submit" value="send" id="submit" />
+          <div class="my-form-status"></div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <div class="myHead">Soft Skills</div>
         <div class="container">
-         <div class="myimg">
-             <img src="images/me.jpg" alt="">
-         </div>
-         <div class="paragraph">
-            <p >    Hello! my name is Khattala Mohammed and I am a second year software engineering
-                  student. I am interested in web development, mobile development and artificial intelligence 
-                  .I am a hardworking student,serious and motivated one.
-      
+          <div class="probleme_solving">
+            <i class="fas fa-cogs" style="font-size: 60px"></i>
+            <p>
+              Logical thinking && Problem <br />
+              solving
             </p>
-            <div class="btn"><a href="files/mohammedkhattala.pdf" > <button type="button">Download Cv</button> </a></div> 
-         </div>
-        </div>
-     </section>
-
-    <section  id="skills">
-        <div class="myHead">
-        <div>
-          My Skills
-        </div>
-        </div>
-        <div class="container">
-                <div class="myskills programming">
-                    <div class="head">
-                        Programming && DataBase 
-                    </div>
-                          <div class="bars">
-                              <div class="info">
-                                  <span>C</span>
-                                  <span class="percen">60%</span>
-                              </div>
-                              <div class="bar "></div>
-                          </div>
-                          <div class="bars">
-                              <div class="info">
-                                  <span>C++</span>
-                                  <span class="percen" >50%</span>
-                              </div>
-                              <div class="bar "></div>
-                          </div>
-                          <div class="bars">
-                              <div class="info">
-                                  <span>JAVA</span>
-                                  <span class="percen">60%</span>
-                              </div>
-                              <div class="bar"></div>
-                          </div>
-                          
-                          <div class="bars">
-                              <div class="info">
-                                  <span>MySQL</span>
-                                  <span class="percen">70%</span>
-                              </div>
-                              <div class="bar "></div>
-                          </div>
-                </div>
-          <div class="myskills web">
-              <div class="head">
-                 Web Development 
-              </div>
-            <div class="bars">
-                <div class="info">
-                    <span>HTML</span>
-                    <span class="percen">70%</span>
-                </div>
-                <div class="bar "></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>CSS</span>
-                    <span class="percen">50%</span>
-                </div>
-                <div class="bar "></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>JavaScript</span>
-                    <span class="percen">40%</span>
-                </div>
-                <div class="bar"></div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>PHP</span>
-                    <span class="percen">60%</span>
-                </div>
-                <div class="bar"></div>
-            </div>
           </div>
-
-        </div>
-      </section>
-      
-       <section id="contact">
-        <div class="myHead">
-          <div>
-           Contact me
+          <div class="sociable_intteligence">
+            <i class="fas fa-code" style="font-size: 60px"></i>
+            <p>
+              Enthusiastic && Passionate <br />
+              about programming
+            </p>
+          </div>
+          <div class="sociable_intteligence">
+            <i class="fas fa-users" style="font-size: 60px"></i>
+            <p>
+              Fast integration && Groupe <br />
+              spirit
+            </p>
+          </div>
+          <div class="research">
+            <i class="fas fa-search" style="font-size: 60px"></i>
+            <p>
+              Daily research && Ability to <br />
+              adopt new technologies
+            </p>
           </div>
         </div>
-        <div class="container">
-         
-           <form action="#">
-              <input type="email" name="email" id="email"  placeholder="Email.."/><br>
-              <input type="text" name="Object" id="object"  placeholder="Object.."/><br>
-              <textarea name="message" id="message" cols="30" rows="10" placeholder="Message...." ></textarea> <br>
-              <input type="submit" value="send" id="submit">
-           </form>
-         
-         </div>
-
-       </section>
-       <footer>
-           <div>
-           <div class="myHead">
-            Soft Skills
-           </div>
-             <div class="container">
-                <div class="probleme_solving">
-                    <i class="fas fa-cogs"style="font-size: 60px;"></i>
-                    <p>Logical thinking & Problem solving</p>
-                </div>
-                <div class="sociable_intteligence">
-                    <i class="fas fa-code" style="font-size: 60px;"></i>
-                   <p> Passion of programming</p>
-                </div>
-                <div class="sociable_intteligence">
-                    <i class="fas fa-users" style="font-size: 60px;"></i>
-                   <p> Fast integration & Groupe spirit</p>
-                </div>
-                <div class="research">
-                    <i class="fas fa-search"style="font-size: 60px;"></i>
-                     <p>Daily research & Ability to adopt <br> new technologies</p>
-                </div>
-             </div>
-          </div>
-          <div class="created">
-              <p>Created By Khattala Mohammed | <span class="far fa-copyright"></span> 2021 All rights reserved</p>
-              <div class="icons">
-                <ul>
-                    <li><i class="fab fa-github"></i></li>
-                    <li><i class="fab fa-linkedin"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                </ul>
-              </div>
-          </div>
-       </footer>
+      </div>
+      <div class="created">
+        <p>
+          Created By <span style="color: #f83600">Khattala Mohammed</span> |
+          <span class="far fa-copyright"></span> 2021 All rights reserved
+        </p>
+        <div class="icons">
+          <ul>
+            <li>
+              <a href="https://github.com/khattalamohammed">
+                <i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/mohammed-khattala-949062211">
+                <i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li><i class="fab fa-instagram"></i></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
+      <i class="fas fa-angle-up"></i>
     </div>
     <!--<div class="night_mode">
         <i class="fas fa-moon"></i>
     </div>-->
     <script src="index.js" type="text/javascript"></script>
-</body>
+  </body>
 </html>
